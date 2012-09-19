@@ -1,0 +1,886 @@
+Jul 3, 2012 5:03:56 PM com.sun.sgs.impl.kernel.Kernel <init>
+INFO: The Kernel is ready, version: 0.10.1
+Jul 3, 2012 5:04:59 PM com.sun.sgs.impl.service.watchdog.WatchdogServerImpl registerNode
+INFO: node:com.sun.sgs.impl.service.watchdog.NodeImpl[33,health:GREEN,backup:(none)]@vz26395 registered
+Jul 3, 2012 5:05:00 PM com.sun.sgs.impl.service.watchdog.WatchdogServiceImpl notifyRecoveryListeners
+INFO: Node:33 recovering for node:32
+Jul 3, 2012 5:05:00 PM com.sun.sgs.impl.service.channel.ChannelServiceImpl$ChannelServiceNodeListener nodeHealthUpdate
+INFO: Node:33 handling nodeFailed:32
+Jul 3, 2012 5:05:00 PM com.sun.sgs.impl.service.session.ClientSessionServiceImpl$ClientSessionServiceRecoveryListener recover
+INFO: Node:33 recovering for node:32
+Jul 3, 2012 5:05:00 PM com.sun.sgs.impl.service.watchdog.WatchdogServiceImpl notifyRecoveryListeners
+INFO: Node:33 recovering for node:32
+Jul 3, 2012 5:05:00 PM com.sun.sgs.impl.service.channel.ChannelServiceImpl$ChannelServiceRecoveryListener recover
+INFO: Node:33 recovering for node:32
+Jul 3, 2012 5:05:00 PM com.sun.sgs.impl.service.task.TaskServiceImpl$3 run
+INFO: Cleaned up handoff set for failed node: 32
+Jul 3, 2012 5:05:00 PM com.sun.sgs.impl.service.channel.ChannelServiceImpl$ChannelServiceNodeListener nodeHealthUpdate
+INFO: Node:33 handling nodeFailed:32
+Jul 3, 2012 5:05:00 PM com.sun.sgs.impl.kernel.Kernel startApplication
+INFO: BarServer: application is ready
+9028622[2012.July.03 at 05:06:50 PM]: Logged In
+9028622[2012.July.03 at 05:06:50 PM]: Existing BarPlace.9028622
+9028622[2012.July.03 at 05:06:50 PM]: InitWithDB
+Cannot load properties file '/javabase.properties'
+USE DATABASE: jdbc:mysql://mysql59.1gb.ru:3306/gb_barmandb?useUnicode=yes&characterEncoding=UTF-8
+9028622[2012.July.03 at 05:06:55 PM]: Init Clients
+9028622[2012.July.03 at 05:06:55 PM]: Init productions
+9028622[2012.July.03 at 05:06:56 PM]: [Init decor]
+9028622[2012.July.03 at 05:06:56 PM]: Init license types
+9028622[2012.July.03 at 05:06:56 PM]: BarPlace inited
+9028622[2012.July.03 at 05:06:57 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.03 at 05:06:58 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:06:59 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:07:00 PM]: Friends in game count: 1
+9028622[2012.July.03 at 05:07:00 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:07:01 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.03 at 05:07:19 PM]: Disconnected: false
+9028622[2012.July.03 at 05:54:35 PM]: Logged In
+9028622[2012.July.03 at 05:54:35 PM]: Existing BarPlace.9028622
+9028622[2012.July.03 at 05:54:35 PM]: InitWithDB
+9028622[2012.July.03 at 05:54:35 PM]: Init Clients
+9028622[2012.July.03 at 05:54:36 PM]: Init productions
+9028622[2012.July.03 at 05:54:36 PM]: [Init decor]
+9028622[2012.July.03 at 05:54:36 PM]: Init license types
+9028622[2012.July.03 at 05:54:36 PM]: BarPlace inited
+9028622[2012.July.03 at 05:54:36 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.03 at 05:54:36 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:54:37 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:54:37 PM]: Friends in game count: 1
+9028622[2012.July.03 at 05:54:37 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:54:38 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.03 at 05:54:42 PM]: Disconnected: false
+9028622[2012.July.03 at 05:54:43 PM]: Logged In
+9028622[2012.July.03 at 05:54:43 PM]: Existing BarPlace.9028622
+9028622[2012.July.03 at 05:54:43 PM]: InitWithDB
+9028622[2012.July.03 at 05:54:43 PM]: Init Clients
+9028622[2012.July.03 at 05:54:43 PM]: Init productions
+9028622[2012.July.03 at 05:54:44 PM]: [Init decor]
+9028622[2012.July.03 at 05:54:44 PM]: Init license types
+9028622[2012.July.03 at 05:54:44 PM]: BarPlace inited
+Jul 3, 2012 5:54:44 PM com.sun.sgs.impl.kernel.TransactionSchedulerImpl executeTask
+WARNING: dropping a task that failed: com.sun.sgs.impl.service.session.ClientSessionHandler$2[NotifyListenerMessageReceived][owner:9028622]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.receivedMessage(BarPlace.java:702)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$2.run(ClientSessionHandler.java:222)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+9028622[2012.July.03 at 05:54:44 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.03 at 05:54:45 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:54:45 PM]: Disconnected: false
+9028622[2012.July.03 at 05:57:40 PM]: Logged In
+9028622[2012.July.03 at 05:57:40 PM]: Existing BarPlace.9028622
+9028622[2012.July.03 at 05:57:40 PM]: InitWithDB
+9028622[2012.July.03 at 05:57:40 PM]: Init Clients
+9028622[2012.July.03 at 05:57:40 PM]: Init productions
+9028622[2012.July.03 at 05:57:40 PM]: [Init decor]
+9028622[2012.July.03 at 05:57:40 PM]: Init license types
+9028622[2012.July.03 at 05:57:40 PM]: BarPlace inited
+9028622[2012.July.03 at 05:57:40 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.03 at 05:57:40 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:57:40 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:57:40 PM]: Friends in game count: 1
+9028622[2012.July.03 at 05:57:40 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:57:41 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.03 at 05:57:54 PM]: Disconnected: false
+9028622[2012.July.03 at 05:58:46 PM]: Logged In
+9028622[2012.July.03 at 05:58:46 PM]: Existing BarPlace.9028622
+9028622[2012.July.03 at 05:58:46 PM]: InitWithDB
+9028622[2012.July.03 at 05:58:46 PM]: Init Clients
+9028622[2012.July.03 at 05:58:46 PM]: Init productions
+9028622[2012.July.03 at 05:58:46 PM]: [Init decor]
+9028622[2012.July.03 at 05:58:46 PM]: Init license types
+9028622[2012.July.03 at 05:58:46 PM]: BarPlace inited
+9028622[2012.July.03 at 05:58:46 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.03 at 05:58:46 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:58:46 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:58:46 PM]: Friends in game count: 1
+9028622[2012.July.03 at 05:58:46 PM]: Friends in game count: 0
+9028622[2012.July.03 at 05:58:47 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.03 at 05:59:13 PM]: Disconnected: false
+9028622[2012.July.03 at 06:08:19 PM]: Logged In
+9028622[2012.July.03 at 06:08:19 PM]: Existing BarPlace.9028622
+9028622[2012.July.03 at 06:08:19 PM]: InitWithDB
+9028622[2012.July.03 at 06:08:19 PM]: Init Clients
+9028622[2012.July.03 at 06:08:19 PM]: Init productions
+9028622[2012.July.03 at 06:08:19 PM]: [Init decor]
+9028622[2012.July.03 at 06:08:20 PM]: Init license types
+9028622[2012.July.03 at 06:08:20 PM]: BarPlace inited
+9028622[2012.July.03 at 06:08:20 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.03 at 06:08:20 PM]: Friends in game count: 0
+9028622[2012.July.03 at 06:08:21 PM]: Friends in game count: 0
+9028622[2012.July.03 at 06:08:21 PM]: Friends in game count: 1
+9028622[2012.July.03 at 06:08:21 PM]: Friends in game count: 0
+9028622[2012.July.03 at 06:08:21 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.03 at 06:08:55 PM]: Disconnected: false
+9028622[2012.July.03 at 06:10:35 PM]: Logged In
+9028622[2012.July.03 at 06:10:35 PM]: Existing BarPlace.9028622
+9028622[2012.July.03 at 06:10:35 PM]: InitWithDB
+9028622[2012.July.03 at 06:10:35 PM]: Init Clients
+9028622[2012.July.03 at 06:10:35 PM]: Init productions
+9028622[2012.July.03 at 06:10:35 PM]: [Init decor]
+9028622[2012.July.03 at 06:10:35 PM]: Init license types
+9028622[2012.July.03 at 06:10:35 PM]: BarPlace inited
+9028622[2012.July.03 at 06:10:35 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.03 at 06:10:36 PM]: Friends in game count: 0
+9028622[2012.July.03 at 06:10:36 PM]: Friends in game count: 0
+9028622[2012.July.03 at 06:10:36 PM]: Friends in game count: 1
+9028622[2012.July.03 at 06:10:36 PM]: Friends in game count: 0
+9028622[2012.July.03 at 06:10:37 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.03 at 06:10:38 PM]: Disconnected: false
+9028622[2012.July.03 at 06:10:49 PM]: Logged In
+9028622[2012.July.03 at 06:10:49 PM]: Existing BarPlace.9028622
+9028622[2012.July.03 at 06:10:49 PM]: InitWithDB
+9028622[2012.July.03 at 06:10:49 PM]: Init Clients
+9028622[2012.July.03 at 06:10:49 PM]: Init productions
+9028622[2012.July.03 at 06:10:49 PM]: [Init decor]
+9028622[2012.July.03 at 06:10:49 PM]: Init license types
+9028622[2012.July.03 at 06:10:49 PM]: BarPlace inited
+Jul 3, 2012 6:10:49 PM com.sun.sgs.impl.kernel.TransactionSchedulerImpl executeTask
+WARNING: dropping a task that failed: com.sun.sgs.impl.service.session.ClientSessionHandler$2[NotifyListenerMessageReceived][owner:9028622]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.receivedMessage(BarPlace.java:702)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$2.run(ClientSessionHandler.java:222)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+9028622[2012.July.03 at 06:10:49 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.03 at 06:10:50 PM]: Friends in game count: 0
+9028622[2012.July.03 at 06:10:50 PM]: Friends in game count: 0
+9028622[2012.July.03 at 06:10:50 PM]: Friends in game count: 1
+9028622[2012.July.03 at 06:10:50 PM]: Friends in game count: 0
+9028622[2012.July.03 at 06:10:51 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.03 at 06:11:20 PM]: Disconnected: false
+24308714[2012.July.03 at 06:34:28 PM]: Logged In
+24308714[2012.July.03 at 06:34:28 PM]: Creating barPlace...
+24308714[2012.July.03 at 06:34:28 PM]: New BarPlace.
+24308714[2012.July.03 at 06:34:28 PM]: InitWithDB
+24308714[2012.July.03 at 06:34:28 PM]: [CATCHED EXCEPTION]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.initWithDB(BarPlace.java:113)
+	at com.flashmedia.BarPlace.init(BarPlace.java:102)
+	at com.flashmedia.BarServer.loggedIn(BarServer.java:69)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$LoginTask.run(ClientSessionHandler.java:996)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+24308714[2012.July.03 at 06:34:28 PM]: Init Clients
+24308714[2012.July.03 at 06:34:28 PM]: Init productions
+24308714[2012.July.03 at 06:34:28 PM]: [Init decor]
+24308714[2012.July.03 at 06:34:28 PM]: Init license types
+24308714[2012.July.03 at 06:34:28 PM]: BarPlace inited
+Jul 3, 2012 6:34:28 PM com.sun.sgs.impl.kernel.TransactionSchedulerImpl executeTask
+WARNING: dropping a task that failed: com.sun.sgs.impl.service.session.ClientSessionHandler$2[NotifyListenerMessageReceived][owner:24308714]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.receivedMessage(BarPlace.java:702)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$2.run(ClientSessionHandler.java:222)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+24308714[2012.July.03 at 06:34:29 PM]: [C_VK_ATTRS]: ????? RWP ??????? , http://cs4739.userapi.com/u24308714/a_e40878ff.jpg
+24308714[2012.July.03 at 06:34:30 PM]: Friends in game count: 1
+24308714[2012.July.03 at 06:34:30 PM]: Friends in game count: 0
+24308714[2012.July.03 at 06:34:38 PM]: [C_LOAD_BAR]: 24308714
+24308714[2012.July.03 at 06:39:35 PM]: Disconnected: false
+118301593[2012.July.03 at 06:51:32 PM]: Logged In
+118301593[2012.July.03 at 06:51:32 PM]: Existing BarPlace.118301593
+118301593[2012.July.03 at 06:51:32 PM]: InitWithDB
+118301593[2012.July.03 at 06:51:32 PM]: Init Clients
+118301593[2012.July.03 at 06:51:32 PM]: Init productions
+118301593[2012.July.03 at 06:51:32 PM]: [Init decor]
+118301593[2012.July.03 at 06:51:32 PM]: Init license types
+118301593[2012.July.03 at 06:51:32 PM]: BarPlace inited
+118301593[2012.July.03 at 06:51:33 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.03 at 06:51:33 PM]: Friends in game count: 0
+118301593[2012.July.03 at 06:51:33 PM]: Friends in game count: 0
+118301593[2012.July.03 at 06:51:33 PM]: Disconnected: false
+118301593[2012.July.03 at 07:02:10 PM]: Logged In
+118301593[2012.July.03 at 07:02:10 PM]: Existing BarPlace.118301593
+118301593[2012.July.03 at 07:02:10 PM]: InitWithDB
+118301593[2012.July.03 at 07:02:10 PM]: Init Clients
+118301593[2012.July.03 at 07:02:10 PM]: Init productions
+118301593[2012.July.03 at 07:02:10 PM]: [Init decor]
+118301593[2012.July.03 at 07:02:10 PM]: Init license types
+118301593[2012.July.03 at 07:02:10 PM]: BarPlace inited
+118301593[2012.July.03 at 07:02:10 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.03 at 07:02:11 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:02:11 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:02:12 PM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.03 at 07:02:35 PM]: [C_WITHDRAW_VOTES]: votes:500 item:euro
+118301593[2012.July.03 at 07:02:35 PM]: Withdraw votes:
+118301593[2012.July.03 at 07:02:36 PM]: authKeyCheck: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:02:36 PM]: authKey: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:02:36 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=977&timestamp=1341327756081&uid=118301593&v=2.0&votes=500&sig=97adf19a6e43b869a0fb880502521f8b
+118301593[2012.July.03 at 07:02:37 PM]: response: {"response":500}
+118301593[2012.July.03 at 07:02:39 PM]: [C_WITHDRAW_VOTES]: votes:500 item:euro
+118301593[2012.July.03 at 07:02:39 PM]: byteArr len: 1024 item:euro
+118301593[2012.July.03 at 07:02:39 PM]: [C_WITHDRAW_VOTES]: votes:500 item:euro
+118301593[2012.July.03 at 07:02:39 PM]: [C_WITHDRAW_VOTES]: votes:500 item:euro
+118301593[2012.July.03 at 07:02:39 PM]: Withdraw votes:
+118301593[2012.July.03 at 07:02:39 PM]: authKeyCheck: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:02:39 PM]: authKey: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:02:39 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=121&timestamp=1341327759739&uid=118301593&v=2.0&votes=500&sig=01e9ca81746f2394f337ab66b81ee274
+118301593[2012.July.03 at 07:02:39 PM]: response: {"response":500}
+118301593[2012.July.03 at 07:02:39 PM]: byteArr len: 1024 item:euro
+118301593[2012.July.03 at 07:02:40 PM]: [C_WITHDRAW_VOTES]: votes:500 item:euro
+118301593[2012.July.03 at 07:02:40 PM]: Withdraw votes:
+118301593[2012.July.03 at 07:02:40 PM]: authKeyCheck: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:02:40 PM]: authKey: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:02:40 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=712&timestamp=1341327760339&uid=118301593&v=2.0&votes=500&sig=37cd25d2acb0d317439498a180a876e5
+118301593[2012.July.03 at 07:02:40 PM]: response: {"response":500}
+118301593[2012.July.03 at 07:02:40 PM]: byteArr len: 1024 item:euro
+118301593[2012.July.03 at 07:02:41 PM]: [C_WITHDRAW_VOTES]: votes:500 item:euro
+118301593[2012.July.03 at 07:02:41 PM]: Withdraw votes:
+118301593[2012.July.03 at 07:02:41 PM]: authKeyCheck: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:02:41 PM]: authKey: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:02:41 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=595&timestamp=1341327761891&uid=118301593&v=2.0&votes=500&sig=5fe2133f85a6c25f8767be85f37c38db
+118301593[2012.July.03 at 07:02:41 PM]: response: {"response":500}
+118301593[2012.July.03 at 07:02:41 PM]: byteArr len: 1024 item:euro
+118301593[2012.July.03 at 07:09:45 PM]: Disconnected: false
+118301593[2012.July.03 at 07:10:32 PM]: Logged In
+118301593[2012.July.03 at 07:10:32 PM]: Existing BarPlace.118301593
+118301593[2012.July.03 at 07:10:32 PM]: InitWithDB
+118301593[2012.July.03 at 07:10:32 PM]: Init Clients
+118301593[2012.July.03 at 07:10:32 PM]: Init productions
+118301593[2012.July.03 at 07:10:32 PM]: [Init decor]
+118301593[2012.July.03 at 07:10:32 PM]: Init license types
+118301593[2012.July.03 at 07:10:32 PM]: BarPlace inited
+118301593[2012.July.03 at 07:10:32 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.03 at 07:10:33 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:10:33 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:10:34 PM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.03 at 07:13:42 PM]: [C_WITHDRAW_VOTES]: votes:500 item:euro
+118301593[2012.July.03 at 07:13:42 PM]: Withdraw votes:
+118301593[2012.July.03 at 07:13:42 PM]: authKeyCheck: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:13:42 PM]: authKey: 0eb59ca469c7adeb203d01294f0dbd28
+118301593[2012.July.03 at 07:13:42 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=425&timestamp=1341328422264&uid=118301593&v=2.0&votes=500&sig=74c5eb2acbecf97da9e0ca36812f6d2d
+118301593[2012.July.03 at 07:13:42 PM]: response: {"response":500}
+118301593[2012.July.03 at 07:13:42 PM]: byteArr len: 1024 item:euro
+118301593[2012.July.03 at 07:15:57 PM]: Disconnected: false
+118301593[2012.July.03 at 07:16:00 PM]: Logged In
+118301593[2012.July.03 at 07:16:00 PM]: Existing BarPlace.118301593
+118301593[2012.July.03 at 07:16:00 PM]: InitWithDB
+118301593[2012.July.03 at 07:16:01 PM]: Init Clients
+118301593[2012.July.03 at 07:16:01 PM]: Init productions
+118301593[2012.July.03 at 07:16:01 PM]: [Init decor]
+118301593[2012.July.03 at 07:16:01 PM]: Init license types
+118301593[2012.July.03 at 07:16:01 PM]: BarPlace inited
+118301593[2012.July.03 at 07:16:01 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.03 at 07:16:02 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:16:02 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:16:02 PM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.03 at 07:17:07 PM]: Disconnected: false
+118301593[2012.July.03 at 07:17:57 PM]: Logged In
+118301593[2012.July.03 at 07:17:57 PM]: Existing BarPlace.118301593
+118301593[2012.July.03 at 07:17:57 PM]: InitWithDB
+118301593[2012.July.03 at 07:17:57 PM]: Init Clients
+118301593[2012.July.03 at 07:17:57 PM]: Init productions
+118301593[2012.July.03 at 07:17:57 PM]: [Init decor]
+118301593[2012.July.03 at 07:17:57 PM]: Init license types
+118301593[2012.July.03 at 07:17:57 PM]: BarPlace inited
+118301593[2012.July.03 at 07:17:57 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.03 at 07:17:58 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:17:58 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:18:00 PM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.03 at 07:19:56 PM]: Disconnected: false
+118301593[2012.July.03 at 07:19:58 PM]: Logged In
+118301593[2012.July.03 at 07:19:58 PM]: Existing BarPlace.118301593
+118301593[2012.July.03 at 07:19:58 PM]: InitWithDB
+118301593[2012.July.03 at 07:19:58 PM]: Init Clients
+118301593[2012.July.03 at 07:19:58 PM]: Init productions
+118301593[2012.July.03 at 07:19:58 PM]: [Init decor]
+118301593[2012.July.03 at 07:19:58 PM]: Init license types
+118301593[2012.July.03 at 07:19:58 PM]: BarPlace inited
+118301593[2012.July.03 at 07:19:58 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.03 at 07:19:59 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:19:59 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:19:59 PM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.03 at 07:20:30 PM]: Disconnected: false
+118301593[2012.July.03 at 07:20:33 PM]: Logged In
+118301593[2012.July.03 at 07:20:33 PM]: Existing BarPlace.118301593
+118301593[2012.July.03 at 07:20:33 PM]: InitWithDB
+118301593[2012.July.03 at 07:20:33 PM]: Init Clients
+118301593[2012.July.03 at 07:20:34 PM]: Init productions
+118301593[2012.July.03 at 07:20:34 PM]: [Init decor]
+118301593[2012.July.03 at 07:20:34 PM]: Init license types
+118301593[2012.July.03 at 07:20:34 PM]: BarPlace inited
+118301593[2012.July.03 at 07:20:34 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.03 at 07:20:35 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:20:36 PM]: Friends in game count: 0
+118301593[2012.July.03 at 07:20:37 PM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.03 at 07:22:32 PM]: Disconnected: false
+111080318[2012.July.03 at 09:28:45 PM]: Logged In
+111080318[2012.July.03 at 09:28:45 PM]: Existing BarPlace.111080318
+111080318[2012.July.03 at 09:28:45 PM]: InitWithDB
+111080318[2012.July.03 at 09:28:45 PM]: Init Clients
+111080318[2012.July.03 at 09:28:45 PM]: Init productions
+111080318[2012.July.03 at 09:28:45 PM]: [Init decor]
+111080318[2012.July.03 at 09:28:45 PM]: Init license types
+111080318[2012.July.03 at 09:28:46 PM]: BarPlace inited
+111080318[2012.July.03 at 09:28:46 PM]: [C_VK_ATTRS]: ??????? ????????? , http://cs303505.userapi.com/u111080318/a_e89da267.jpg
+111080318[2012.July.03 at 09:28:46 PM]: Friends in game count: 0
+111080318[2012.July.03 at 09:28:46 PM]: Friends in game count: 0
+111080318[2012.July.03 at 09:28:46 PM]: Friends in game count: 0
+111080318[2012.July.03 at 09:28:47 PM]: Friends in game count: 0
+111080318[2012.July.03 at 09:28:49 PM]: [C_LOAD_BAR]: 111080318
+111080318[2012.July.03 at 09:35:51 PM]: Disconnected: false
+84207023[2012.July.03 at 09:37:02 PM]: Logged In
+84207023[2012.July.03 at 09:37:02 PM]: Creating barPlace...
+84207023[2012.July.03 at 09:37:02 PM]: New BarPlace.
+84207023[2012.July.03 at 09:37:02 PM]: InitWithDB
+84207023[2012.July.03 at 09:37:02 PM]: [CATCHED EXCEPTION]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.initWithDB(BarPlace.java:113)
+	at com.flashmedia.BarPlace.init(BarPlace.java:102)
+	at com.flashmedia.BarServer.loggedIn(BarServer.java:69)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$LoginTask.run(ClientSessionHandler.java:996)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+84207023[2012.July.03 at 09:37:02 PM]: Init Clients
+84207023[2012.July.03 at 09:37:02 PM]: Init productions
+84207023[2012.July.03 at 09:37:02 PM]: [Init decor]
+84207023[2012.July.03 at 09:37:02 PM]: Init license types
+84207023[2012.July.03 at 09:37:02 PM]: BarPlace inited
+84207023[2012.July.03 at 09:37:02 PM]: [C_VK_ATTRS]: ???????? ??????????????. ????????. ??????.??? ????? , http://cs411731.userapi.com/u84207023/a_d2f6bd8d.jpg
+84207023[2012.July.03 at 09:37:03 PM]: Friends in game count: 0
+84207023[2012.July.03 at 09:37:03 PM]: Friends in game count: 0
+84207023[2012.July.03 at 09:37:03 PM]: Friends in game count: 0
+84207023[2012.July.03 at 09:37:11 PM]: [C_LOAD_BAR]: 84207023
+42096663[2012.July.03 at 10:09:59 PM]: Logged In
+42096663[2012.July.03 at 10:09:59 PM]: Creating barPlace...
+42096663[2012.July.03 at 10:09:59 PM]: New BarPlace.
+42096663[2012.July.03 at 10:09:59 PM]: InitWithDB
+42096663[2012.July.03 at 10:09:59 PM]: [CATCHED EXCEPTION]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.initWithDB(BarPlace.java:113)
+	at com.flashmedia.BarPlace.init(BarPlace.java:102)
+	at com.flashmedia.BarServer.loggedIn(BarServer.java:69)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$LoginTask.run(ClientSessionHandler.java:996)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+42096663[2012.July.03 at 10:09:59 PM]: Init Clients
+42096663[2012.July.03 at 10:09:59 PM]: Init productions
+42096663[2012.July.03 at 10:09:59 PM]: [Init decor]
+42096663[2012.July.03 at 10:09:59 PM]: Init license types
+42096663[2012.July.03 at 10:09:59 PM]: BarPlace inited
+42096663[2012.July.03 at 10:10:01 PM]: [C_VK_ATTRS]: ??????? ???????? , http://cs9935.userapi.com/u42096663/a_2d6d9e11.jpg
+42096663[2012.July.03 at 10:10:01 PM]: Friends in game count: 0
+42096663[2012.July.03 at 10:10:02 PM]: Friends in game count: 0
+42096663[2012.July.03 at 10:10:03 PM]: Friends in game count: 0
+42096663[2012.July.03 at 10:10:04 PM]: Friends in game count: 0
+42096663[2012.July.03 at 10:10:04 PM]: Friends in game count: 0
+42096663[2012.July.03 at 10:10:04 PM]: Friends in game count: 0
+42096663[2012.July.03 at 10:10:05 PM]: Friends in game count: 0
+42096663[2012.July.03 at 10:10:05 PM]: Friends in game count: 0
+42096663[2012.July.03 at 10:10:12 PM]: [C_LOAD_BAR]: 42096663
+42096663[2012.July.03 at 10:16:16 PM]: Disconnected: false
+84207023[2012.July.03 at 10:55:08 PM]: Disconnected: false
+84207023[2012.July.03 at 11:01:56 PM]: Logged In
+84207023[2012.July.03 at 11:01:56 PM]: Existing BarPlace.84207023
+84207023[2012.July.03 at 11:01:56 PM]: InitWithDB
+84207023[2012.July.03 at 11:01:56 PM]: Init Clients
+84207023[2012.July.03 at 11:01:56 PM]: Init productions
+84207023[2012.July.03 at 11:01:56 PM]: [Init decor]
+84207023[2012.July.03 at 11:01:56 PM]: Init license types
+84207023[2012.July.03 at 11:01:56 PM]: BarPlace inited
+84207023[2012.July.03 at 11:01:57 PM]: [C_VK_ATTRS]: ???????? ??????????????. ????????. ??????.??? ????? , http://cs411731.userapi.com/u84207023/a_d2f6bd8d.jpg
+84207023[2012.July.03 at 11:01:57 PM]: Friends in game count: 0
+84207023[2012.July.03 at 11:01:57 PM]: Friends in game count: 0
+84207023[2012.July.03 at 11:01:58 PM]: Friends in game count: 0
+84207023[2012.July.03 at 11:02:01 PM]: [C_LOAD_BAR]: 84207023
+84207023[2012.July.03 at 11:08:45 PM]: Disconnected: false
+83053650[2012.July.04 at 04:05:24 AM]: Logged In
+83053650[2012.July.04 at 04:05:24 AM]: Creating barPlace...
+83053650[2012.July.04 at 04:05:24 AM]: New BarPlace.
+83053650[2012.July.04 at 04:05:24 AM]: InitWithDB
+83053650[2012.July.04 at 04:05:24 AM]: [CATCHED EXCEPTION]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.initWithDB(BarPlace.java:113)
+	at com.flashmedia.BarPlace.init(BarPlace.java:102)
+	at com.flashmedia.BarServer.loggedIn(BarServer.java:69)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$LoginTask.run(ClientSessionHandler.java:996)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+83053650[2012.July.04 at 04:05:24 AM]: Init Clients
+83053650[2012.July.04 at 04:05:24 AM]: Init productions
+83053650[2012.July.04 at 04:05:24 AM]: [Init decor]
+83053650[2012.July.04 at 04:05:24 AM]: Init license types
+83053650[2012.July.04 at 04:05:24 AM]: BarPlace inited
+83053650[2012.July.04 at 04:05:25 AM]: [C_VK_ATTRS]: ????? ?????????? , http://cs10880.userapi.com/u83053650/a_5df7c580.jpg
+83053650[2012.July.04 at 04:05:25 AM]: Friends in game count: 0
+83053650[2012.July.04 at 04:05:26 AM]: Friends in game count: 0
+83053650[2012.July.04 at 04:05:27 AM]: Friends in game count: 0
+83053650[2012.July.04 at 04:05:27 AM]: Friends in game count: 0
+83053650[2012.July.04 at 04:05:27 AM]: Friends in game count: 0
+83053650[2012.July.04 at 04:05:28 AM]: Friends in game count: 0
+83053650[2012.July.04 at 04:05:28 AM]: Friends in game count: 0
+83053650[2012.July.04 at 04:05:35 AM]: [C_LOAD_BAR]: 83053650
+83053650[2012.July.04 at 04:06:43 AM]: Disconnected: false
+118301593[2012.July.04 at 05:54:59 AM]: Logged In
+118301593[2012.July.04 at 05:54:59 AM]: Existing BarPlace.118301593
+118301593[2012.July.04 at 05:54:59 AM]: InitWithDB
+118301593[2012.July.04 at 05:55:00 AM]: Init Clients
+118301593[2012.July.04 at 05:55:00 AM]: Init productions
+118301593[2012.July.04 at 05:55:00 AM]: [Init decor]
+118301593[2012.July.04 at 05:55:00 AM]: Init license types
+118301593[2012.July.04 at 05:55:00 AM]: BarPlace inited
+118301593[2012.July.04 at 05:55:00 AM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.04 at 05:55:01 AM]: Friends in game count: 0
+118301593[2012.July.04 at 05:55:01 AM]: Friends in game count: 0
+118301593[2012.July.04 at 05:55:05 AM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.04 at 05:58:48 AM]: Disconnected: false
+118301593[2012.July.04 at 10:55:53 AM]: Logged In
+118301593[2012.July.04 at 10:55:53 AM]: Existing BarPlace.118301593
+118301593[2012.July.04 at 10:55:53 AM]: InitWithDB
+118301593[2012.July.04 at 10:55:53 AM]: Init Clients
+118301593[2012.July.04 at 10:55:53 AM]: Init productions
+118301593[2012.July.04 at 10:55:53 AM]: [Init decor]
+118301593[2012.July.04 at 10:55:53 AM]: Init license types
+118301593[2012.July.04 at 10:55:53 AM]: BarPlace inited
+118301593[2012.July.04 at 10:55:53 AM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.04 at 10:55:54 AM]: Friends in game count: 0
+118301593[2012.July.04 at 10:55:54 AM]: Friends in game count: 0
+118301593[2012.July.04 at 10:55:54 AM]: [C_LOAD_BAR]: 118301593
+101230376[2012.July.04 at 10:59:45 AM]: Logged In
+101230376[2012.July.04 at 10:59:45 AM]: Creating barPlace...
+101230376[2012.July.04 at 10:59:45 AM]: New BarPlace.
+101230376[2012.July.04 at 10:59:45 AM]: InitWithDB
+101230376[2012.July.04 at 10:59:45 AM]: [CATCHED EXCEPTION]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.initWithDB(BarPlace.java:113)
+	at com.flashmedia.BarPlace.init(BarPlace.java:102)
+	at com.flashmedia.BarServer.loggedIn(BarServer.java:69)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$LoginTask.run(ClientSessionHandler.java:996)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+101230376[2012.July.04 at 10:59:45 AM]: Init Clients
+101230376[2012.July.04 at 10:59:45 AM]: Init productions
+101230376[2012.July.04 at 10:59:45 AM]: [Init decor]
+101230376[2012.July.04 at 10:59:45 AM]: Init license types
+101230376[2012.July.04 at 10:59:45 AM]: BarPlace inited
+101230376[2012.July.04 at 10:59:46 AM]: [C_VK_ATTRS]: ???? ???????? , http://cs10917.userapi.com/u101230376/a_6ede4f09.jpg
+101230376[2012.July.04 at 10:59:46 AM]: Friends in game count: 0
+101230376[2012.July.04 at 10:59:46 AM]: Friends in game count: 0
+101230376[2012.July.04 at 10:59:47 AM]: Friends in game count: 0
+101230376[2012.July.04 at 10:59:47 AM]: Friends in game count: 0
+101230376[2012.July.04 at 10:59:47 AM]: Friends in game count: 0
+101230376[2012.July.04 at 10:59:47 AM]: Friends in game count: 0
+101230376[2012.July.04 at 11:00:10 AM]: [C_LOAD_BAR]: 101230376
+101230376[2012.July.04 at 11:00:57 AM]: Disconnected: false
+118301593[2012.July.04 at 11:09:55 AM]: Disconnected: false
+111080318[2012.July.04 at 11:59:15 AM]: Logged In
+111080318[2012.July.04 at 11:59:15 AM]: Existing BarPlace.111080318
+111080318[2012.July.04 at 11:59:15 AM]: InitWithDB
+111080318[2012.July.04 at 11:59:15 AM]: Init Clients
+111080318[2012.July.04 at 11:59:15 AM]: Init productions
+111080318[2012.July.04 at 11:59:15 AM]: [Init decor]
+111080318[2012.July.04 at 11:59:15 AM]: Init license types
+111080318[2012.July.04 at 11:59:15 AM]: BarPlace inited
+111080318[2012.July.04 at 11:59:15 AM]: [C_VK_ATTRS]: ??????? ????????? , http://cs303505.userapi.com/u111080318/a_e89da267.jpg
+111080318[2012.July.04 at 11:59:15 AM]: Friends in game count: 0
+111080318[2012.July.04 at 11:59:15 AM]: Friends in game count: 0
+111080318[2012.July.04 at 11:59:16 AM]: Friends in game count: 0
+111080318[2012.July.04 at 11:59:16 AM]: Friends in game count: 0
+111080318[2012.July.04 at 11:59:18 AM]: [C_LOAD_BAR]: 111080318
+111080318[2012.July.04 at 12:16:01 PM]: Disconnected: false
+118301593[2012.July.04 at 12:24:01 PM]: Logged In
+118301593[2012.July.04 at 12:24:01 PM]: Existing BarPlace.118301593
+118301593[2012.July.04 at 12:24:01 PM]: InitWithDB
+118301593[2012.July.04 at 12:24:02 PM]: Init Clients
+118301593[2012.July.04 at 12:24:02 PM]: Init productions
+118301593[2012.July.04 at 12:24:02 PM]: [Init decor]
+118301593[2012.July.04 at 12:24:02 PM]: Init license types
+118301593[2012.July.04 at 12:24:02 PM]: BarPlace inited
+118301593[2012.July.04 at 12:24:02 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.04 at 12:24:02 PM]: Friends in game count: 0
+118301593[2012.July.04 at 12:24:03 PM]: Friends in game count: 0
+118301593[2012.July.04 at 12:24:03 PM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.04 at 12:24:09 PM]: Disconnected: false
+118301593[2012.July.04 at 12:26:37 PM]: Logged In
+118301593[2012.July.04 at 12:26:37 PM]: Existing BarPlace.118301593
+118301593[2012.July.04 at 12:26:37 PM]: InitWithDB
+118301593[2012.July.04 at 12:26:37 PM]: Init Clients
+118301593[2012.July.04 at 12:26:37 PM]: Init productions
+118301593[2012.July.04 at 12:26:37 PM]: [Init decor]
+118301593[2012.July.04 at 12:26:37 PM]: Init license types
+118301593[2012.July.04 at 12:26:37 PM]: BarPlace inited
+118301593[2012.July.04 at 12:26:38 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.04 at 12:26:38 PM]: Friends in game count: 0
+118301593[2012.July.04 at 12:26:38 PM]: Friends in game count: 0
+118301593[2012.July.04 at 12:26:39 PM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.04 at 12:28:17 PM]: Disconnected: false
+118301593[2012.July.04 at 12:28:21 PM]: Logged In
+118301593[2012.July.04 at 12:28:21 PM]: Existing BarPlace.118301593
+118301593[2012.July.04 at 12:28:21 PM]: InitWithDB
+118301593[2012.July.04 at 12:28:22 PM]: Init Clients
+118301593[2012.July.04 at 12:28:22 PM]: Init productions
+118301593[2012.July.04 at 12:28:22 PM]: [Init decor]
+118301593[2012.July.04 at 12:28:22 PM]: Init license types
+118301593[2012.July.04 at 12:28:22 PM]: BarPlace inited
+118301593[2012.July.04 at 12:28:22 PM]: [C_VK_ATTRS]: ???? ???????? , http://cs307301.userapi.com/u118301593/a_1908b3e7.jpg
+118301593[2012.July.04 at 12:28:22 PM]: Friends in game count: 0
+118301593[2012.July.04 at 12:28:22 PM]: Friends in game count: 0
+118301593[2012.July.04 at 12:28:23 PM]: [C_LOAD_BAR]: 118301593
+118301593[2012.July.04 at 12:35:33 PM]: Disconnected: false
+111080318[2012.July.04 at 03:51:52 PM]: Logged In
+111080318[2012.July.04 at 03:51:52 PM]: Existing BarPlace.111080318
+111080318[2012.July.04 at 03:51:52 PM]: InitWithDB
+111080318[2012.July.04 at 03:51:53 PM]: Init Clients
+111080318[2012.July.04 at 03:51:53 PM]: Init productions
+111080318[2012.July.04 at 03:51:53 PM]: [Init decor]
+111080318[2012.July.04 at 03:51:53 PM]: Init license types
+111080318[2012.July.04 at 03:51:53 PM]: BarPlace inited
+111080318[2012.July.04 at 03:51:54 PM]: [C_VK_ATTRS]: ??????? ????????? , http://cs303505.userapi.com/u111080318/a_e89da267.jpg
+111080318[2012.July.04 at 03:51:54 PM]: Friends in game count: 0
+111080318[2012.July.04 at 03:51:55 PM]: Friends in game count: 0
+111080318[2012.July.04 at 03:51:55 PM]: Friends in game count: 0
+111080318[2012.July.04 at 03:51:55 PM]: Friends in game count: 0
+111080318[2012.July.04 at 03:51:58 PM]: [C_LOAD_BAR]: 111080318
+24308714[2012.July.04 at 03:55:20 PM]: Logged In
+24308714[2012.July.04 at 03:55:20 PM]: Existing BarPlace.24308714
+24308714[2012.July.04 at 03:55:20 PM]: InitWithDB
+24308714[2012.July.04 at 03:55:20 PM]: Init Clients
+24308714[2012.July.04 at 03:55:20 PM]: Init productions
+24308714[2012.July.04 at 03:55:20 PM]: [Init decor]
+24308714[2012.July.04 at 03:55:20 PM]: Init license types
+24308714[2012.July.04 at 03:55:20 PM]: BarPlace inited
+24308714[2012.July.04 at 03:55:20 PM]: [C_VK_ATTRS]: ????? RWP ??????? , http://cs4739.userapi.com/u24308714/a_e40878ff.jpg
+24308714[2012.July.04 at 03:55:21 PM]: Friends in game count: 1
+24308714[2012.July.04 at 03:55:21 PM]: Friends in game count: 0
+24308714[2012.July.04 at 03:55:35 PM]: [C_LOAD_BAR]: 24308714
+24308714[2012.July.04 at 04:01:29 PM]: Disconnected: false
+24308714[2012.July.04 at 04:01:32 PM]: Logged In
+24308714[2012.July.04 at 04:01:32 PM]: Existing BarPlace.24308714
+24308714[2012.July.04 at 04:01:32 PM]: InitWithDB
+24308714[2012.July.04 at 04:01:32 PM]: Init Clients
+24308714[2012.July.04 at 04:01:32 PM]: Init productions
+24308714[2012.July.04 at 04:01:32 PM]: [Init decor]
+24308714[2012.July.04 at 04:01:32 PM]: Init license types
+24308714[2012.July.04 at 04:01:33 PM]: BarPlace inited
+24308714[2012.July.04 at 04:01:33 PM]: [C_VK_ATTRS]: ????? RWP ??????? , http://cs4739.userapi.com/u24308714/a_e40878ff.jpg
+24308714[2012.July.04 at 04:01:34 PM]: Friends in game count: 1
+24308714[2012.July.04 at 04:01:36 PM]: Friends in game count: 0
+24308714[2012.July.04 at 04:01:39 PM]: [C_LOAD_BAR]: 24308714
+24308714[2012.July.04 at 04:03:41 PM]: Disconnected: false
+91387253[2012.July.04 at 04:08:49 PM]: Logged In
+91387253[2012.July.04 at 04:08:49 PM]: Creating barPlace...
+91387253[2012.July.04 at 04:08:49 PM]: New BarPlace.
+91387253[2012.July.04 at 04:08:49 PM]: InitWithDB
+91387253[2012.July.04 at 04:08:49 PM]: [CATCHED EXCEPTION]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.initWithDB(BarPlace.java:113)
+	at com.flashmedia.BarPlace.init(BarPlace.java:102)
+	at com.flashmedia.BarServer.loggedIn(BarServer.java:69)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$LoginTask.run(ClientSessionHandler.java:996)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+91387253[2012.July.04 at 04:08:49 PM]: Init Clients
+91387253[2012.July.04 at 04:08:49 PM]: Init productions
+91387253[2012.July.04 at 04:08:49 PM]: [Init decor]
+91387253[2012.July.04 at 04:08:50 PM]: Init license types
+91387253[2012.July.04 at 04:08:50 PM]: BarPlace inited
+91387253[2012.July.04 at 04:08:50 PM]: [C_VK_ATTRS]: ???? Germany ???????? , http://cs5262.userapi.com/u91387253/a_296f7b89.jpg
+91387253[2012.July.04 at 04:08:51 PM]: Friends in game count: 0
+91387253[2012.July.04 at 04:08:52 PM]: Friends in game count: 0
+91387253[2012.July.04 at 04:08:52 PM]: Friends in game count: 0
+91387253[2012.July.04 at 04:08:52 PM]: Friends in game count: 0
+91387253[2012.July.04 at 04:09:15 PM]: [C_LOAD_BAR]: 91387253
+91387253[2012.July.04 at 04:20:07 PM]: Disconnected: false
+91387253[2012.July.04 at 04:20:28 PM]: Logged In
+91387253[2012.July.04 at 04:20:28 PM]: Existing BarPlace.91387253
+91387253[2012.July.04 at 04:20:28 PM]: InitWithDB
+91387253[2012.July.04 at 04:20:28 PM]: Init Clients
+91387253[2012.July.04 at 04:20:28 PM]: Init productions
+91387253[2012.July.04 at 04:20:28 PM]: [Init decor]
+91387253[2012.July.04 at 04:20:28 PM]: Init license types
+91387253[2012.July.04 at 04:20:28 PM]: BarPlace inited
+91387253[2012.July.04 at 04:20:29 PM]: [C_VK_ATTRS]: ???? Germany ???????? , http://cs5262.userapi.com/u91387253/a_296f7b89.jpg
+91387253[2012.July.04 at 04:20:29 PM]: Friends in game count: 0
+91387253[2012.July.04 at 04:20:29 PM]: Friends in game count: 0
+91387253[2012.July.04 at 04:20:29 PM]: Friends in game count: 0
+91387253[2012.July.04 at 04:20:29 PM]: Friends in game count: 0
+91387253[2012.July.04 at 04:20:31 PM]: [C_LOAD_BAR]: 91387253
+91387253[2012.July.04 at 04:36:51 PM]: Disconnected: false
+9028622[2012.July.04 at 04:39:37 PM]: Logged In
+9028622[2012.July.04 at 04:39:37 PM]: Existing BarPlace.9028622
+9028622[2012.July.04 at 04:39:37 PM]: InitWithDB
+9028622[2012.July.04 at 04:39:37 PM]: Init Clients
+9028622[2012.July.04 at 04:39:37 PM]: Init productions
+9028622[2012.July.04 at 04:39:37 PM]: [Init decor]
+9028622[2012.July.04 at 04:39:37 PM]: Init license types
+9028622[2012.July.04 at 04:39:37 PM]: BarPlace inited
+9028622[2012.July.04 at 04:39:38 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.04 at 04:39:38 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:39:38 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:39:38 PM]: Friends in game count: 2
+9028622[2012.July.04 at 04:39:38 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:39:42 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.04 at 04:40:05 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: Withdraw votes:
+9028622[2012.July.04 at 04:40:18 PM]: authKeyCheck: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:18 PM]: authKey: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:18 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=261&timestamp=1341405618111&uid=9028622&v=2.0&votes=100&sig=5b01e30e5bd97ea0599059dcc9f59e63
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: response: {"error":{"error_code":502,"error_msg":"Not enough votes on user's balance","request_params":[{"key":"api_id","value":"1955775"},{"key":"format","value":"json"},{"key":"method","value":"secure.withdrawVotes"},{"key":"random","value":"261"},{"key":"timestamp","value":"1341405618111"},{"key":"uid","value":"9028622"},{"key":"v","value":"2.0"},{"key":"votes","value":"100"},{"key":"sig","value":"5b01e30e5bd97ea0599059dcc9f59e63"}]}}
+9028622[2012.July.04 at 04:40:18 PM]: Request User Balance: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.getBalance&random=463&timestamp=1341405618241&uid=9028622&v=2.0&sig=f91a15b7ccb0ad6da9b5af99a5632f7f
+9028622[2012.July.04 at 04:40:18 PM]: Response: {"response":0}
+9028622[2012.July.04 at 04:40:18 PM]: UserBalance: 0
+9028622[2012.July.04 at 04:40:18 PM]: byteArr len: 1024 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: Withdraw votes:
+9028622[2012.July.04 at 04:40:18 PM]: authKeyCheck: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:18 PM]: authKey: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=679&timestamp=1341405618364&uid=9028622&v=2.0&votes=100&sig=7848996fe60dcf59c98e5e558be138aa
+9028622[2012.July.04 at 04:40:18 PM]: response: {"error":{"error_code":502,"error_msg":"Not enough votes on user's balance","request_params":[{"key":"api_id","value":"1955775"},{"key":"format","value":"json"},{"key":"method","value":"secure.withdrawVotes"},{"key":"random","value":"679"},{"key":"timestamp","value":"1341405618364"},{"key":"uid","value":"9028622"},{"key":"v","value":"2.0"},{"key":"votes","value":"100"},{"key":"sig","value":"7848996fe60dcf59c98e5e558be138aa"}]}}
+9028622[2012.July.04 at 04:40:18 PM]: Request User Balance: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.getBalance&random=869&timestamp=1341405618467&uid=9028622&v=2.0&sig=f7b43e0aa612eff42fd6347bcb47eef0
+9028622[2012.July.04 at 04:40:18 PM]: Response: {"response":0}
+9028622[2012.July.04 at 04:40:18 PM]: UserBalance: 0
+9028622[2012.July.04 at 04:40:18 PM]: byteArr len: 1024 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: Withdraw votes:
+9028622[2012.July.04 at 04:40:18 PM]: authKeyCheck: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:18 PM]: authKey: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:18 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=684&timestamp=1341405618568&uid=9028622&v=2.0&votes=100&sig=4135f8657413f49d4895505595367329
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: response: {"error":{"error_code":502,"error_msg":"Not enough votes on user's balance","request_params":[{"key":"api_id","value":"1955775"},{"key":"format","value":"json"},{"key":"method","value":"secure.withdrawVotes"},{"key":"random","value":"684"},{"key":"timestamp","value":"1341405618568"},{"key":"uid","value":"9028622"},{"key":"v","value":"2.0"},{"key":"votes","value":"100"},{"key":"sig","value":"4135f8657413f49d4895505595367329"}]}}
+9028622[2012.July.04 at 04:40:18 PM]: Request User Balance: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.getBalance&random=677&timestamp=1341405618663&uid=9028622&v=2.0&sig=0bda6c5a09c931b03f637777fa60a2e4
+9028622[2012.July.04 at 04:40:18 PM]: Response: {"error":{"error_code":4,"error_msg":"Incorrect signature","request_params":[{"key":"api_id","value":"1955775"},{"key":"format","value":"json"},{"key":"method","value":"secure.getBalance"},{"key":"random","value":"677"},{"key":"timestamp","value":"1341405618663"},{"key":"uid","value":"9028622"},{"key":"v","value":"2.0"},{"key":"sig","value":"0bda6c5a09c931b03f637777fa60a2e4"}]}}
+9028622[2012.July.04 at 04:40:18 PM]: UserBalance: 0
+9028622[2012.July.04 at 04:40:18 PM]: byteArr len: 1024 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:18 PM]: Withdraw votes:
+9028622[2012.July.04 at 04:40:18 PM]: authKeyCheck: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:18 PM]: authKey: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:18 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=558&timestamp=1341405618760&uid=9028622&v=2.0&votes=100&sig=a650240477165d88b68618932e1f51be
+9028622[2012.July.04 at 04:40:18 PM]: response: {"error":{"error_code":502,"error_msg":"Not enough votes on user's balance","request_params":[{"key":"api_id","value":"1955775"},{"key":"format","value":"json"},{"key":"method","value":"secure.withdrawVotes"},{"key":"random","value":"558"},{"key":"timestamp","value":"1341405618760"},{"key":"uid","value":"9028622"},{"key":"v","value":"2.0"},{"key":"votes","value":"100"},{"key":"sig","value":"a650240477165d88b68618932e1f51be"}]}}
+9028622[2012.July.04 at 04:40:18 PM]: Request User Balance: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.getBalance&random=902&timestamp=1341405618860&uid=9028622&v=2.0&sig=b9e8c83dc904d560a0ce89d070ef8579
+9028622[2012.July.04 at 04:40:18 PM]: Response: {"response":0}
+9028622[2012.July.04 at 04:40:18 PM]: UserBalance: 0
+9028622[2012.July.04 at 04:40:18 PM]: byteArr len: 1024 item:euro
+9028622[2012.July.04 at 04:40:28 PM]: [C_WITHDRAW_VOTES]: votes:100 item:euro
+9028622[2012.July.04 at 04:40:28 PM]: Withdraw votes:
+9028622[2012.July.04 at 04:40:28 PM]: authKeyCheck: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:28 PM]: authKey: 02742a14bbd6e28390d7c40e6018a4a9
+9028622[2012.July.04 at 04:40:28 PM]: Request: http://api.vkontakte.ru/api.php?api_id=1955775&format=json&method=secure.withdrawVotes&random=740&timestamp=1341405628754&uid=9028622&v=2.0&votes=100&sig=3cfbfffc0a5f5e8bd618c620fb11e536
+9028622[2012.July.04 at 04:40:28 PM]: response: {"response":100}
+9028622[2012.July.04 at 04:40:28 PM]: byteArr len: 1024 item:euro
+9028622[2012.July.04 at 04:40:47 PM]: Disconnected: false
+9028622[2012.July.04 at 04:43:18 PM]: Logged In
+9028622[2012.July.04 at 04:43:18 PM]: Existing BarPlace.9028622
+9028622[2012.July.04 at 04:43:18 PM]: InitWithDB
+9028622[2012.July.04 at 04:43:18 PM]: Init Clients
+9028622[2012.July.04 at 04:43:18 PM]: Init productions
+9028622[2012.July.04 at 04:43:18 PM]: [Init decor]
+9028622[2012.July.04 at 04:43:18 PM]: Init license types
+9028622[2012.July.04 at 04:43:18 PM]: BarPlace inited
+9028622[2012.July.04 at 04:43:18 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.04 at 04:43:19 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:43:19 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:43:19 PM]: Friends in game count: 2
+9028622[2012.July.04 at 04:43:19 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:43:19 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.04 at 04:43:26 PM]: Disconnected: false
+9028622[2012.July.04 at 04:48:07 PM]: Logged In
+9028622[2012.July.04 at 04:48:07 PM]: Existing BarPlace.9028622
+9028622[2012.July.04 at 04:48:07 PM]: InitWithDB
+9028622[2012.July.04 at 04:48:07 PM]: Init Clients
+9028622[2012.July.04 at 04:48:07 PM]: Init productions
+9028622[2012.July.04 at 04:48:07 PM]: [Init decor]
+9028622[2012.July.04 at 04:48:07 PM]: Init license types
+9028622[2012.July.04 at 04:48:07 PM]: BarPlace inited
+9028622[2012.July.04 at 04:48:07 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.04 at 04:48:08 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:48:08 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:48:08 PM]: Friends in game count: 2
+9028622[2012.July.04 at 04:48:08 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:48:09 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.04 at 04:48:13 PM]: Disconnected: false
+100553474[2012.July.04 at 04:51:54 PM]: Logged In
+100553474[2012.July.04 at 04:51:54 PM]: Creating barPlace...
+100553474[2012.July.04 at 04:51:54 PM]: New BarPlace.
+100553474[2012.July.04 at 04:51:54 PM]: InitWithDB
+100553474[2012.July.04 at 04:51:54 PM]: [CATCHED EXCEPTION]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.initWithDB(BarPlace.java:113)
+	at com.flashmedia.BarPlace.init(BarPlace.java:102)
+	at com.flashmedia.BarServer.loggedIn(BarServer.java:69)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$LoginTask.run(ClientSessionHandler.java:996)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+100553474[2012.July.04 at 04:51:54 PM]: Init Clients
+100553474[2012.July.04 at 04:51:54 PM]: Init productions
+100553474[2012.July.04 at 04:51:54 PM]: [Init decor]
+100553474[2012.July.04 at 04:51:54 PM]: Init license types
+100553474[2012.July.04 at 04:51:54 PM]: BarPlace inited
+100553474[2012.July.04 at 04:51:54 PM]: [C_VK_ATTRS]: ????? ?????? , http://cs402826.userapi.com/u100553474/a_c4e9ea01.jpg
+100553474[2012.July.04 at 04:51:55 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:51:55 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:51:55 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:51:56 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:51:56 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:52:00 PM]: [C_LOAD_BAR]: 100553474
+9028622[2012.July.04 at 04:53:07 PM]: Logged In
+9028622[2012.July.04 at 04:53:07 PM]: Existing BarPlace.9028622
+9028622[2012.July.04 at 04:53:07 PM]: InitWithDB
+9028622[2012.July.04 at 04:53:07 PM]: Init Clients
+9028622[2012.July.04 at 04:53:07 PM]: Init productions
+9028622[2012.July.04 at 04:53:07 PM]: [Init decor]
+9028622[2012.July.04 at 04:53:07 PM]: Init license types
+9028622[2012.July.04 at 04:53:07 PM]: BarPlace inited
+Jul 4, 2012 4:53:07 PM com.sun.sgs.impl.kernel.TransactionSchedulerImpl executeTask
+WARNING: dropping a task that failed: com.sun.sgs.impl.service.session.ClientSessionHandler$2[NotifyListenerMessageReceived][owner:9028622]
+java.lang.NullPointerException
+9028622[2012.July.04 at 04:53:07 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.04 at 04:53:07 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:53:08 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:53:08 PM]: Disconnected: false
+9028622[2012.July.04 at 04:53:22 PM]: Logged In
+9028622[2012.July.04 at 04:53:22 PM]: Existing BarPlace.9028622
+9028622[2012.July.04 at 04:53:22 PM]: InitWithDB
+9028622[2012.July.04 at 04:53:22 PM]: Init Clients
+9028622[2012.July.04 at 04:53:22 PM]: Init productions
+9028622[2012.July.04 at 04:53:22 PM]: [Init decor]
+9028622[2012.July.04 at 04:53:22 PM]: Init license types
+9028622[2012.July.04 at 04:53:22 PM]: BarPlace inited
+9028622[2012.July.04 at 04:53:23 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.04 at 04:53:24 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:53:24 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:53:24 PM]: Friends in game count: 2
+9028622[2012.July.04 at 04:53:24 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:53:26 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.04 at 04:53:36 PM]: Disconnected: false
+9028622[2012.July.04 at 04:53:36 PM]: Logged In
+9028622[2012.July.04 at 04:53:36 PM]: Existing BarPlace.9028622
+9028622[2012.July.04 at 04:53:36 PM]: InitWithDB
+9028622[2012.July.04 at 04:53:36 PM]: Init Clients
+9028622[2012.July.04 at 04:53:36 PM]: Init productions
+9028622[2012.July.04 at 04:53:36 PM]: [Init decor]
+9028622[2012.July.04 at 04:53:36 PM]: Init license types
+9028622[2012.July.04 at 04:53:36 PM]: BarPlace inited
+9028622[2012.July.04 at 04:53:37 PM]: [C_VK_ATTRS]: ????? ???????? , http://cs9703.userapi.com/u9028622/a_fbaddbaa.jpg
+9028622[2012.July.04 at 04:53:37 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:53:37 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:53:38 PM]: Friends in game count: 2
+9028622[2012.July.04 at 04:53:38 PM]: Friends in game count: 0
+9028622[2012.July.04 at 04:53:40 PM]: [C_LOAD_BAR]: 9028622
+9028622[2012.July.04 at 04:53:49 PM]: Disconnected: false
+100553474[2012.July.04 at 04:59:32 PM]: Disconnected: false
+100553474[2012.July.04 at 04:59:37 PM]: Logged In
+100553474[2012.July.04 at 04:59:37 PM]: Existing BarPlace.100553474
+100553474[2012.July.04 at 04:59:37 PM]: InitWithDB
+100553474[2012.July.04 at 04:59:37 PM]: Init Clients
+100553474[2012.July.04 at 04:59:37 PM]: Init productions
+100553474[2012.July.04 at 04:59:37 PM]: [Init decor]
+100553474[2012.July.04 at 04:59:37 PM]: Init license types
+100553474[2012.July.04 at 04:59:37 PM]: BarPlace inited
+100553474[2012.July.04 at 04:59:37 PM]: [C_VK_ATTRS]: ????? ?????? , http://cs402826.userapi.com/u100553474/a_c4e9ea01.jpg
+100553474[2012.July.04 at 04:59:37 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:59:38 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:59:38 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:59:38 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:59:38 PM]: Friends in game count: 0
+100553474[2012.July.04 at 04:59:40 PM]: [C_LOAD_BAR]: 100553474
+100553474[2012.July.04 at 05:01:27 PM]: Disconnected: false
+94803404[2012.July.04 at 05:49:50 PM]: Logged In
+94803404[2012.July.04 at 05:49:50 PM]: Creating barPlace...
+94803404[2012.July.04 at 05:49:50 PM]: New BarPlace.
+94803404[2012.July.04 at 05:49:50 PM]: InitWithDB
+94803404[2012.July.04 at 05:49:50 PM]: [CATCHED EXCEPTION]
+java.lang.NullPointerException
+	at com.flashmedia.BarPlace.initWithDB(BarPlace.java:113)
+	at com.flashmedia.BarPlace.init(BarPlace.java:102)
+	at com.flashmedia.BarServer.loggedIn(BarServer.java:69)
+	at com.sun.sgs.impl.service.session.ClientSessionHandler$LoginTask.run(ClientSessionHandler.java:996)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.executeTask(TransactionSchedulerImpl.java:651)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl.access$500(TransactionSchedulerImpl.java:108)
+	at com.sun.sgs.impl.kernel.TransactionSchedulerImpl$TaskConsumer.run(TransactionSchedulerImpl.java:555)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+94803404[2012.July.04 at 05:49:50 PM]: Init Clients
+94803404[2012.July.04 at 05:49:50 PM]: Init productions
+94803404[2012.July.04 at 05:49:50 PM]: [Init decor]
+94803404[2012.July.04 at 05:49:50 PM]: Init license types
+94803404[2012.July.04 at 05:49:50 PM]: BarPlace inited
+94803404[2012.July.04 at 05:49:51 PM]: [C_VK_ATTRS]: ????? ??? ????????? , http://cs405821.userapi.com/u94803404/a_c03b2a6a.jpg
+94803404[2012.July.04 at 05:49:51 PM]: Friends in game count: 0
+94803404[2012.July.04 at 05:49:51 PM]: Friends in game count: 0
+94803404[2012.July.04 at 05:49:52 PM]: Friends in game count: 0
+94803404[2012.July.04 at 05:49:52 PM]: Friends in game count: 0
+94803404[2012.July.04 at 05:50:16 PM]: [C_LOAD_BAR]: 94803404
+94803404[2012.July.04 at 06:00:00 PM]: Disconnected: false
